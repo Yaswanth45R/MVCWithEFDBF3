@@ -12,7 +12,7 @@ namespace MVCWithEFDBF3.Controllers
       MVCDBEntities dc = new MVCDBEntities();
         public ViewResult DisplayStudents()
         {
-            return View(dc.Student_Select(null, true););
+            return View(dc.Student_Select(null, true));
         }
     }
 }
